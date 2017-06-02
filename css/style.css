@@ -213,14 +213,25 @@
 #floor3 .floor3-bottom li .price i{text-decoration:line-through;}
 #floor3 .floor3-bottom li:hover{box-shadow:0px 10px 10px #888888;transition:.5s;} 
 
-#footer{height:415px;width:1263px;background:red;}
-#footer .footer-service{height:415px;width:1200px;margin:0 auto;}
-#footer .footer-service dl{float:left;width:285px;height:125px;}
+#footer{height:415px;width:1263px;}
+#footer .footer-service{height:125px;width:1200px;margin:0 auto;border-bottom:1px solid #e5e5e5;}
+#footer .footer-service dl{float:left;width:285px;height:125px;margin-right:20px;}
+#footer .footer-service dl.d4{margin-right:0px;}
 #footer .footer-service dl dt{float:left;margin:40px 0 0 20px;}
 #footer .footer-service dl dd{float:left;margin:40px 0 0 5px;}
 #footer .footer-service dl dd p{font:14px/24px "";}
 #footer .footer-service .d2{padding-left:10px;}
 
-
-
+#footer .footer-link{height:230px;width:1200px;margin:0 auto;}
+#footer .footer-link .footer-link-left{float:left;width:740px;height:150px;padding:40px 0 40px 0;}
+#footer .footer-link .footer-link-left .footer-link-left-fl{float:left;width:185px;height:150px;}
+#footer .footer-link .footer-link-left .footer-link-left-fl li{font:12px/20px "";}
+#footer .footer-link .footer-link-left .footer-link-left-fl li.link-Ntitle{font:14px/40px "";}
+#footer .footer-link .footer-link-right{float:right;width:160px;height:220px;padding-top:40px;}
+#footer .footer-link .footer-link-right .phone-number{font:800 30px/36px "";color:#fc4c02;}
+#footer .footer-link .footer-link-right .sale-after{font:14px/18px "";padding-bottom:18px;height:18px;}
+#footer .footer-link .footer-link-right .consulting{height:24px;width:135px;border:1px solid #fc4c02;text-align:center;padding-top:6px;}
+#footer .footer-link .footer-link-right .talk{width:160px;height:80px;margin-top:10px;}
+#footer .footer-link .footer-link-right .talk li{float:left;width:80px;height:80px;}
+#footer .footer-link .footer-link-right .talk li img{display:block;margin:0 0 6px 6px;}
 
