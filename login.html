@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>登录界面</title>
+		<link href="css/public.css" rel="stylesheet" type="text/css">
+        <link href="css/login.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+		
+          <div id="header">
+            <a href="#" target="_blank"><img src="img/logo.png"/></a>
+          </div>
+          <div id="main">
+          	<div class="login_box">
+          	     <div class="phone">手机验证码登录</div>
+          	     <div class="normal">普通登录</div>
+          	</div>
+          </div>
+          
+          
+          
+          
+          
+         <div class="login">
+             <div class="login_box">
+              <div class="select_way phone unSelected br"><a class="fc">手机验证码登录</a></div>
+              <div class="select_way normal tr"><a class="c75">普通登录</a></div>
+              <div class="cl"></div>
+               <div class="form_content">
+           <div class="container normal_content" style="display: block;">
+             <ul>
+               <li class="use">
+                 <input type="text" id="uid" placeholder="邮箱/手机号/用户名" maxlength="50">
+               </li>
+               <li class="pas">
+                  <input type="password" id="pwd" placeholder="请输入登录密码" maxlength="25">
+               </li>
+               <li class="ver">
+                   <div class="ver_box">
+                <div class="in">
+                  <input type="text" maxlength="4" id="imageValid" onfocus="javascript:$('.ver_box').css('border-color','#fc4c02');" onblur="javascript:$('.ver_box').css('border-color','#b5b5b5');" placeholder="请输入验证码">
+                 </div>
+                  <div class="img"><img src="/helper/captcha?f=1496403523577" id="imageHover"></div>
+                </div>
+              </li>
+            </ul>
+         <div class="wrong" style=""></div>
+            <input type="button" id="login" value="登录" formtarget="_self" class="submit">
+
+        <dl>
+          <dt>
+          <div class="x none"><input name="" type="checkbox" id="remember" checked=""><label for="remember">30天内记住我的登录信息</label></div>
+          <div class="y"><a href="/html4/pc_find_ps.html?c=https%3A%2F%2Fpassport.coocaa.com%2Foauth2%2Fauth%3Fresponse_type%3Dcode%26client_id%3Dd4e4cb330afc4dcaa4a522d631840ccb%26state%3D1496400527374%26scope%3Dprofile%26theme%3Dcoocaa%26redirect_uri%3Dhttp%253A%252F%252Fwww.coocaa.com%252Fusers%252Faccept_login.html%253Ffm%253DREVGOTk5RkEyNzRFMjI3NkNFQUJBQ0RGNkY5NTFGOTY4NEM1RUIyRGFIUjBjRG92TDNkM2R5NWpiMjlqWVdFdVkyOXRMejloWjJWdWREMWpiMjlqWVdFPQ%253D%253D" id="find_ps" target="_blank">忘记密码</a></div>
+          <div class="cl"></div>
+          </dt>
+          <dd>
+            <div class="x"><span>社交账号登录</span>
+              <a href="/qq/login?from=PC" class="qq" id="qq"></a>
+              <a href="/weibo/login?from=PC" class="wb" id="weibo"></a>
+              
+            </div>
+            <div class="cl"></div>
+          </dd>
+        </dl>
+      </div>
+      <div class="container phone_content" style="display: none;">
+        <ul>
+          <li class="use">
+            <input type="text" placeholder="手机号(新用户登录即注册)" maxlength="11" id="mobile">
+            <input type="hidden" id="codeKey">
+          </li>
+          <li class="ver" style="display:none" id="sms_img">
+            <div class="ver_box">
+              <div class="in">
+                <input type="text" maxlength="4" id="captcha" onfocus="javascript:$('.ver_box').css('border-color','#fc4c02');" onblur="javascript:$('.ver_box').css('border-color','#b5b5b5');" placeholder="验证码">
+              </div>
+              <div class="img"><img src="/helper/captcha" id="imageCaptcha"></div>
+            </div>
+          </li>
+          <li class="validate">
+            <input type="text" placeholder="短信验证码" style="width: 59%;" id="smsHover">
+            <button class="vail" id="sendValidCode">获取验证码</button>
+          </li>
+        </ul>
+        <div class="wrong" style=""></div>
+        <input type="button" value="登录" formtarget="_self" id="loginAndRegister" class="submit">
+      </div>
+    </div>
+  </div>
+</div>
+  <div class="footer"> © COOCAA · 川网文【2011】 0579-016号 · ICP备案证号：川B2-20120050 </div>
+
+	</body>
+</html>

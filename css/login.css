@@ -1,0 +1,6 @@
+#header{height:105px;width:1280px;}
+#header img{display:block;width:185px;height:24px;margin:70px 0 0 126px; }
+#main{position:relative;height:503px;width:1280px;background:url(../img/login.jpg) no-repeat center;margin-top:-70px;}
+.login_box{height:250px;width:340px;background:#eaf6fa;position:absolute;top:50px;right:140px;}
+.phone{float:left;height:42px;width:50%;background:blue;text-align:center;font:16px/42px "";}
+.normal{float:left;height:42px;width:50%;background:red;text-align:center;font:16px/42px "";}
