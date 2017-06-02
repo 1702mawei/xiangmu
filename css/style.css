@@ -182,7 +182,7 @@
 
 #floor2{height:430px;width:1228px;padding-left:35px;background:#f6f7f8;}
 #floor2 .floor2-top{height:70px;width:1200px;padding-top:25px;margin:0 auto;}
-#floor2 .floor2-top h3{float:left;height:70px;width:100px;font:800 20px/70px "";margin-left:-13px;}
+#floor2 .floor2-top h3{float:left;height:70px;width:120px;font:800 20px/70px "";margin-left:-13px;}
 #floor2 .floor2-top .more1{float:right;height:70px;width:70px;font:800 16px/70px "";margin-right:8px;}
 #floor2 .floor2-bottom{height:360px;width:1220px;}
 #floor2 .floor2-bottom li{float:left;height:360px;width:285px;margin-right:20px;background:#fff;position:relative;}
@@ -227,11 +227,22 @@
 #footer .footer-link .footer-link-left .footer-link-left-fl{float:left;width:185px;height:150px;}
 #footer .footer-link .footer-link-left .footer-link-left-fl li{font:12px/20px "";}
 #footer .footer-link .footer-link-left .footer-link-left-fl li.link-Ntitle{font:14px/40px "";}
-#footer .footer-link .footer-link-right{float:right;width:160px;height:220px;padding-top:40px;}
+#footer .footer-link .footer-link-right{position:relative;float:right;width:160px;height:180px;padding-top:40px;}
 #footer .footer-link .footer-link-right .phone-number{font:800 30px/36px "";color:#fc4c02;}
 #footer .footer-link .footer-link-right .sale-after{font:14px/18px "";padding-bottom:18px;height:18px;}
+
+
 #footer .footer-link .footer-link-right .consulting{height:24px;width:135px;border:1px solid #fc4c02;text-align:center;padding-top:6px;}
+#footer .footer-link .footer-link-right .consulting:hover{background:#fc4c02;color:#000;}
 #footer .footer-link .footer-link-right .talk{width:160px;height:80px;margin-top:10px;}
 #footer .footer-link .footer-link-right .talk li{float:left;width:80px;height:80px;}
 #footer .footer-link .footer-link-right .talk li img{display:block;margin:0 0 6px 6px;}
+#footer .footer-link .footer-link-right .erweima{position:absolute;top:50px;left:50px;}
+#footer .footer-link .footer-link-right .erweima img{width:100px;height:100px;}
 
+#footer .footer-bottom{height:60px;width:1263px;background:#f6f7f8;}
+#footer .footer-bottom .banquan{float:left;height:60px;font:14px/60px "";margin-left:35px;}
+#footer .footer-bottom .warn{float:right;width:378px;height:45px;padding-top:15px;}
+#footer .footer-bottom .warn li{width:126px;height:45px;float:left;}
+#footer .footer-bottom .warn li img{display:block;float:left;width:16px;height:18px;margin-top:6px;}
+#footer .footer-bottom .warn li span{display:block;float:left;font:12px/16px "";}
